@@ -24,6 +24,7 @@ module.exports = {
       md: "0.375rem",
       lg: "0.5rem",
       xl: "1rem",
+      xxl: "1.5rem",
       full: "9999px",
       large: "12px",
     },
@@ -33,6 +34,7 @@ module.exports = {
       },
       colors: {
         oliver: "#BAE399",
+        blur: "#5957BB",
       },
     },
   },

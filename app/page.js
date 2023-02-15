@@ -1,4 +1,5 @@
 import MarqueeCrypto from "./components/home/MarqueeCrypto";
+import CryptoListing from "./components/home/CryptoListing";
 import PlusIcon from "./components/icons/PlusIcon";
 import styles from "./page.module.css";
 
@@ -20,6 +21,8 @@ export default function Home() {
       </div>
 
       <MarqueeCrypto />
+
+      <CryptoListing />
     </main>
   );
 }
