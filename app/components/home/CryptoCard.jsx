@@ -1,10 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
 import EthuruemIcon from "../icons/Ethuruem";
+import Link from 'next/link';
+import { motion as m } from "framer-motion";
+
 
 export default function CryptoCard() {
   return (
+    <m.div initial={{y:150}} animate={{y:0}} transition={{ duration: 1, ease:'easeInOut' }}>
     <div className="p-1">
+        <Link href="profile">
             <Image
                 src="/assets/images/5.jpeg"
                 alt="Picture of the author"
@@ -21,6 +26,8 @@ export default function CryptoCard() {
                     <time>07:24:35</time>
                 </div>
             </div>
+        </Link>
         </div>
+        </m.div>
   )
 }
